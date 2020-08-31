@@ -1,24 +1,21 @@
 const arrayConversion = (a: number[]): number => {
-  let result: number[] = [];
-  let keepGoing: boolean = true;
-  let iteration: number = 1;
+  let isEven = true;
 
-  while (keepGoing) {
-    for (let i = 0; i < a.length; i++) {
-      if (iteration % 2 != 0) {
-        if (i % 2 == 0) {
-          result.push(a[i] + a[i + 1]);
-        }
+  while (a.length > 1) {
+    let temp = [];
+
+    for (let i = 0; i < a.length; i += 2) {
+      if (isEven) {
+        temp.push(a[i] + a[i + 1]);
+      } else {
+        temp.push(a[i] * a[i + 1]);
       }
-
-      if (iteration % 2 == 0) {
-      }
-
-      iteration++;
     }
+    
+    a = temp;
+    isEven = !isEven;
   }
-
-  return result[0] + result[1];
+  return a[0];
 };
 
 // Test
