@@ -9,7 +9,6 @@ function solution(inputArray: number[]): number {
   return inputArray[0];
 }
 
-// Gives an error for me but he said it is working...?
 function sumProduct(nums: number[], isOdd: boolean): number[] {
   const sumProducts: number[] = [];
 
