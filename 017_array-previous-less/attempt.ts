@@ -3,11 +3,16 @@ const arrayPreviousLess = (a: number[]): number[] => {
 
   for (let i = 1; i < a.length; i++) {
     let temp = 0;
-    let count = 0;
+    let pointer = 0;
 
-    while (count < a.length) {
-      result[i] = a[i];
-      count++;
+    while (pointer < i) {
+      if (a[i] < a[pointer]) {
+        temp = a[i];
+      } else {
+        temp = -1;
+      }
+      console.log(temp);
+      pointer++;
     }
   }
 
