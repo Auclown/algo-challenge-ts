@@ -10,3 +10,9 @@ Give a try to every algorithms from the course by myself first, and check the so
 * All attempt.ts files are my attempt to write the algorithm.
 
 * All solution.ts files are the solution written by the instructor Dylan Israel during the lecture.
+
+#### Tasks I could not completed:
+
+* 019_avoiding-obstacles
+
+* 20_bishop-and-pawn
