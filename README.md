@@ -11,6 +11,8 @@ Give a try to every algorithms from the course by myself first, and check the so
 
 * All solution.ts files are the solution written by the instructor Dylan Israel during the lecture.
 
+* All solution files are now hidden because it may be copyright infringement.
+
 #### Tasks I could not complete:
 
 * 019_avoiding-obstacles
