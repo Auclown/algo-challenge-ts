@@ -1,12 +1,16 @@
 const firstDuplicate = (a: number[]): number => {
-  let numbers = {};
+  const numbers = {};
 
-  for (let i = 0; i < a.length; i++) {
-    // Add elements into the object: number: count
-    // Increase count and aheck the count at the same time
-    // If the count reaches 2, return it
-    console.log("Have to go now, will comeback and finish asap.");
+  for (let num of a) {
+    if (numbers.hasOwnProperty(num)) {
+      return num;
+    }
+    numbers[num] = num;
   }
 
-  return 0;
+  return -1;
 };
+
+// Test
+console.log(firstDuplicate([2, 1, 3, 5, 3, 2])); // 3
+console.log(firstDuplicate([2, 4, 3, 5, 1])); // -1
