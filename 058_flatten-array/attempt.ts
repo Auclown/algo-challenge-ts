@@ -1,24 +1,15 @@
-// TODO: Fix Maximum call stack size exceeded error!
-const flattenArray = (a): any[] => {
+const flattenArray = (a: any[]): any[] => {
   let result: any[] = [];
 
-  if (
-    a.every((element) => {
-      !Array.isArray(element);
-    })
-  ) {
-    return a;
-  }
-
-  for (let i = 0; i < a.length; i++) {
-    if (Array.isArray(a[i])) {
-      result.push(a[i][0]);
+  a.forEach((element) => {
+    if (Array.isArray(element)) {
+      result = result.concat(flattenArray(element));
     } else {
-      result.push(a[i]);
+      result.push(element);
     }
-  }
+  });
 
-  return flattenArray(result);
+  return result;
 };
 
 // Test
