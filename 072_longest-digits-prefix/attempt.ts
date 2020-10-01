@@ -1,4 +1,4 @@
-const longestDigitsPrefix = (s: string) => {
+const longestDigitsPrefix = (s: string): string => {
   return s.split(/(\d+)/)[1];
 };
 
