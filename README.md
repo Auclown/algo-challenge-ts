@@ -1,22 +1,27 @@
 # 100 Algorithms Challenge
+
 ### Inspired by a Udemy course [:link:](https://www.udemy.com/course/100-algorithms-challenge/)
 
 #### Language used:
+
 Typescript
 
 #### Plan:
+
 Give a try to every algorithms from the course by myself first, and check the solution.
 
-* All attempt.ts files are my attempt to write the algorithm.
+- All attempt.ts files are my attempt to write the algorithm.
 
-* All solution.ts files are the solution written by the instructor Dylan Israel during the lecture.
+- All solution.ts files are the solution written by the instructor Dylan Israel during the lecture.
 
-* All solution files are now hidden because it may be copyright infringement.
+- All solution files are now hidden because it may be copyright infringement.
 
 #### Tasks I could not complete:
 
-* 019_avoiding-obstacles
+- 019_avoiding-obstacles
 
-* 020_bishop-and-pawn
+- 020_bishop-and-pawn
 
-* 021_box-blur
+- 021_box-blur
+
+- 081_pro-categorization
