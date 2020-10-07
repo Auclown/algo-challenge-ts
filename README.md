@@ -25,3 +25,5 @@ Give a try to every algorithms from the course by myself first, and check the so
 - 021_box-blur
 
 - 081_pro-categorization
+
+- 092_strings-construction
